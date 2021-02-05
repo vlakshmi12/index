@@ -1,0 +1,38 @@
+.{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 10px;
+    text-align: left;
+}
+
+header{
+padding: 20px;
+background: gray;
+color: black;
+}
+#aside ul{
+    list-style-type: none;
+    padding: 0px;
+}
+section{
+    width: 65%;
+    float: right;
+    height: 400px;
+    background: white;
+}
+.left{
+width: 35%;
+float: left;
+height: 400px;
+background: grey;
+}
+footer{
+    
+    padding: 20px;
+    background: gray;
+    color: black;
+    text-align:center ;
+    
+}

@@ -1,0 +1,59 @@
+#box
+{
+    height: 500px;
+    width: 500px;
+    background-color: blanchedalmond;
+    position: relative;
+}
+#s1
+{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    right: 0;
+}
+#s2
+{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    position: absolute;
+    left:0 ;
+}
+#s3
+{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#s4
+{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#inp
+{
+    margin: 80px;
+}
+input{
+    width: 400px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+span{
+    position: absolute;
+    z-index: 1;
+    margin-left: 380px;
+    margin-top: 10px;
+
+}

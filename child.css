@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hanalei&display=swap');
+#menu > li
+{
+display: inline;
+padding: 10px;
+}
+
+#menu > li a
+{
+ text-decoration: none;
+}
+div ~ p 
+{
+color: cadetblue;
+border: 2px solid blueviolet;
+font-family: 'Hanalei', cursive;
+}
+body
+{
+    background-image:url("./is (1).jpg");
+ /*background-repeat: repeat-x;*/
+ background-size: cover;
+ 
+}

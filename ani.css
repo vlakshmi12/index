@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 95vh;
+    width: 95%;
+    background-image: url(./k.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: animate 2s linear 10s infinite alternate;
+}
+@keyframes animate
+{
+    background-image : url(./k.jpeg); 
+}

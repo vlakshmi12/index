@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/">
+        <div><label for="user"> username:</label>
+            <input type="text" name="uname" id="user" placeholder="Enter username" >
+        </div>
+    <br />
+        <div>
+        <label for="pwd"> password:</label>
+        <input type="password" name="password" id="pwd" placeholder="Enter password" minlength="10">
+    </div>
+    <br />
+    <div>
+        <label for="E-mail"> E-mail :</label>
+        <input type="email" name="E-mail" id="E-mail" placeholder="Enter E-mail id " minlength="10">
+    </div> 
+    <br />  <br />
+
+    <div>
+        
+        <input type="radio"  id="Gender" name="gen"/>
+        <label for="Gender "> Female </label>
+
+        <input type="radio"  id="Gender" name="gen"/>
+        <label for="Gender "> male </label>
+    
+    </div> 
+    <br />  <br />
+
+    <div>
+        <label for="ck">DBMS</label>
+        <input type="checkbox" name="subject1" id="ck" ></div>
+        <br />
+        <div>
+        <label for="ck1">AWS</label>
+        <input type="checkbox" name="subject1" id="ck1" ></div>
+        <br /> 
+         <div>
+        <label for="ck2">CC</label>
+        <input type="checkbox" name="subject1" id="ck2" ></div>
+        <br />
+    </div>
+    <br /> <br />
+    <div>
+        <label for="s1">subject</label>
+        <select  multiple name="sub" id="s1">
+        <option value="nodejs">nodejs</option>
+        <option value="AWS">AWS</option>
+        <option value="python">python</option>
+        <option value="firebase">firebase</option>
+    <br />
+</select>
+</div>
+<br />  <br />
+
+    <div>
+        <label for="file"> select file</label>
+        <input type="file" name="file" id="file" placeholder="upload file ">
+    </div> 
+    <br />  <br />
+
+    <div>
+        <label for="bdy">select month and year </label>
+        <input type="month" id="bdy" name="bdaymonth">
+    </div>
+    <br />  <br />
+
+
+    <div>
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week">
+    </div>
+    <br />
+    <button>submit</button>
+</form>
+</body>
+</html>
